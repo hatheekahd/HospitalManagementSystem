@@ -1,6 +1,6 @@
 package hospital;
 
-public class Main {
+public class MainBST {
     public static void main(String[] args) {
 
         PatientBST bst = new PatientBST();
