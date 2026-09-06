@@ -5,12 +5,12 @@ public class Main {
 
         PatientBST bst = new PatientBST();
 
-        // Insert some patients
-        bst.insert(101, "Nipuna", 25, "0771234567", "Fever");
-        bst.insert(105, "Aravinda", 40, "0772345678", "Fracture");
-        bst.insert(103, "Prashani", 30, "0773456789", "Asthma");
-        bst.insert(108, "Kavindu", 22, "0774567890", "Headache");
-        bst.insert(102, "Ishara", 35, "0775678901", "Allergy");
+        // Insert patients
+        bst.insert(101, "Hatheek", 25, "0771234567", "Fever");
+        bst.insert(105, "Rahmy", 40, "0772345678", "Fracture");
+        bst.insert(103, "Suja", 30, "0773456789", "Asthma");
+        bst.insert(108, "Mufeer", 22, "0774567890", "Headache");
+        bst.insert(102, "Ahnaf", 35, "0775678901", "Allergy");
 
         System.out.println("===== All Patients (In-Order Traversal) =====");
         bst.inOrderTraversal();
